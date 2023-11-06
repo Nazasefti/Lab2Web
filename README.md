@@ -49,27 +49,27 @@
 
 - Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen.
 
-<head>
-    <title>CSS Dasar</title>
-    <style>
-        body {
-            font-family:'Open Sans', sans-serif;
-        }
-        header {
-            min-height: 80px;
-            border-bottom:1px solid #77CCEF;
-        }
-        h1 {
-            font-size: 24px;
-            color: #0F189F;
-            text-align: center;
-            padding: 20px 10px;
-        }
-        h1 i {
-            color:#6d6a6b;
-        }
-    </style>
-<head>
+        <head>
+            <title>CSS Dasar</title>
+            <style>
+                body {
+                    font-family:'Open Sans', sans-serif;
+                }
+                header {
+                    min-height: 80px;
+                    border-bottom:1px solid #77CCEF;
+                }
+                h1 {
+                    font-size: 24px;
+                    color: #0F189F;
+                    text-align: center;
+                    padding: 20px 10px;
+                }
+                h1 i {
+                    color:#6d6a6b;
+                }
+            </style>
+        <head>
 
 - Selanjutnya simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat hasilnya.
 
@@ -80,7 +80,7 @@
 - Kemudian tambahkan deklarasi inline CSS pada tag
 seperti berikut
 
-<p style="text-align: center; color: #ccd8e4;">
+        <p style="text-align: center; color: #ccd8e4;">
 
 - Simpan kembali dan segarkan kembali browser untuk melihat perubahannya.
   
@@ -90,24 +90,24 @@ seperti berikut
 
 - Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
 
-nav{
-    background: #20A759;
-    color:#fff;
-    padding: 10px;
-}
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding:10px 20px;
-}
-nav .active,
-nav a:hover {
-    background: #0B6B3A;
-}
+        nav{
+            background: #20A759;
+            color:#fff;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding:10px 20px;
+        }
+        nav .active,
+        nav a:hover {
+            background: #0B6B3A;
+        }
 
 - Kemudian tambahkan tag untuk merajuk file css yang sudah dibuat pada bagian
 
- <head>
- <!-- menyisipkan css eksternal -->
- <link rel="stylesheet" href="style_eksternal.css" type="text/css">
-</head>  
+         <head>
+         <!-- menyisipkan css eksternal -->
+         <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+        </head>  
